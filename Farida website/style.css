@@ -1,0 +1,115 @@
+/* Reset */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #eee6e2;
+    color: rgb(16, 38, 241);
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #d2f703;
+    color: #330eda;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: f1c40f;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: dotted;
+    color: #eb0a0a;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: f1c40f;
+}
+
+/* Button */
+.btn {
+    background: f1c40f;
+    color: #06a0dd;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #eb0404;background-position: ;
+    color: #0477eb;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)rgba(0,0,0,0.5)),
+    url('https://images.unsplash.com/photo-1581091870634-3e76fdb6df89?ixlib=rb-4.0.3auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    color: #f10a0a;
+    padding: 10px 20px;
+}
+
+.hero h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Features */
+.features {
+    display: contents;
+    justify-content: first baseline;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.features {
+    width: 30%;
+    background: #ff0303;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.features h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer{
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
